@@ -57,7 +57,7 @@ int screen_w = 448, screen_h = 960;
 //const int pixel_w = 320, pixel_h = 180;
 const int pixel_w = 448, pixel_h = 960;
 
-unsigned char buffer[pixel_w * pixel_h * bpp / 8];
+unsigned char buffer[pixel_w * pixel_h * bpp / 8];//0.25+0.25+1 = 1.5 ,一帧YUV的数据大小
 
 
 //Refresh Event
